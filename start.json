@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "clock",
+      "script": "./bin/www",
+      "env_prod": {
+        "PORT": 1234
+      },
+      "env_dev": {
+        "PORT": 3000
+      }
+    }
+  ]
+}
